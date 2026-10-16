@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">张可航2024110146</string>
+
+    <string name="main_hint">本程序包含4个二级Activity，点击按钮分别体验：正向传参、返回数据、调用系统相机、秒表。</string>
+    <string name="btn_first">启动第1个二级Activity（正向传参）</string>
+    <string name="btn_second">启动第2个二级Activity（返回数据）</string>
+    <string name="btn_third">启动第3个二级Activity（调用系统相机）</string>
+    <string name="btn_fourth">启动第4个二级Activity（秒表）</string>
+    <string name="result_empty">尚未收到第2个二级Activity返回的内容</string>
+    <string name="result_received">从第2个二级Activity返回的内容：%1$s</string>
+
+    <string name="activity_first_title">第1个二级Activity（正向传参）</string>
+    <string name="activity_second_title">第2个二级Activity（返回数据）</string>
+    <string name="activity_third_title">第3个二级Activity（调用系统相机）</string>
+    <string name="activity_fourth_title">第4个二级Activity（秒表）</string>
+
+    <string name="param_name">张可航</string>
+    <string name="param_id">2024110146</string>
+    <string name="received_format">接收到的参数内容：\n姓名：%1$s\n学号：%2$s\n年龄：%3$d</string>
+
+    <string name="input_hint">请输入要返回给MainActivity的内容</string>
+    <string name="btn_confirm">确定</string>
+    <string name="empty_input_toast">输入内容不能为空</string>
+
+    <string name="btn_take_photo">拍照</string>
+    <string name="photo_hint">点击“拍照”按钮通过隐式Intent调用系统相机，拍照成功后照片显示在下方</string>
+    <string name="no_camera_app">未找到可用的系统相机应用</string>
+    <string name="photo_dir_name">images</string>
+    <string name="photo_file_name">IMG_%1$d.jpg</string>
+    <string name="photo_desc">拍摄的照片</string>
+    <string name="file_provider_authority">%1$s.fileprovider</string>
+
+    <string name="stopwatch_hint">横竖屏切换时秒表连续计时，不中断</string>
+    <string name="btn_start">开始</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_reset">重置</string>
+    <string name="time_format">%1$02d:%2$02d:%3$02d</string>
+
+    <string name="key_name">key_name</string>
+    <string name="key_id">key_id</string>
+    <string name="key_age">key_age</string>
+    <string name="key_result">key_result</string>
+    <string name="key_running">key_running</string>
+    <string name="key_accumulated">key_accumulated</string>
+    <string name="key_base">key_base</string>
+    <string name="key_photo_path">key_photo_path</string>
+
+    <string name="log_on_create">onCreate</string>
+    <string name="log_on_start">onStart</string>
+    <string name="log_on_resume">onResume</string>
+    <string name="log_on_pause">onPause</string>
+    <string name="log_on_stop">onStop</string>
+    <string name="log_on_restart">onRestart</string>
+    <string name="log_on_destroy">onDestroy</string>
+    <string name="log_on_save_instance">onSaveInstanceState</string>
+    <string name="log_on_restore_instance">onRestoreInstanceState</string>
+</resources>
